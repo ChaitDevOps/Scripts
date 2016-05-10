@@ -1,2 +1,2 @@
 # Run Weekly Cron to Empty Trash
-15 14 * * tue /Users/Maddy/Documents/Scripts/BashScripts/EmptyTrash.sh > ~/Documents/Scripts/CronFiles/Cron.log 2>~/Documents/Scripts/CronFiles/CronErr.log
+0 8 * * sun /Users/Maddy/Documents/Scripts/BashScripts/EmptyTrash.sh > ~/Documents/Scripts/CronFiles/Cron.log 2>~/Documents/Scripts/CronFiles/CronErr.log
