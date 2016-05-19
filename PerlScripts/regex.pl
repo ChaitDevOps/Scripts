@@ -58,24 +58,24 @@
 # }
 # &ucase;
 
-# sub blank {
-# 	# removing Blank Spaces before and after
-# 	$text = "      Now is the time to win Arsenal.     ";
-# 	$text =~ s/^\s+|\s+$//g;
-# 	print "$text\n";
-# }
-# &blank;
-
-sub look_ahead {
-	# Look Ahead expressions.
-	# $& holds last match; $` holds string behind last match; $' holds string ahead of last match.
-	$text = "Alexis Ozil Giroud ";
-	while ($text =~ /\w+(?=\s)/g) {
-		# body...
-		print "$&\n";
-		#print "$`\n";
-		#print "$'\n";
-	}
-	
+sub blank {
+	# removing Blank Spaces before and after
+	$text = "      Now is the time to win Arsenal.     ";
+	$text =~ s/^\s+|\s+$//g;
+	print "$text\n";
 }
-&look_ahead;
+&blank;
+
+# sub look_ahead {
+# 	# Look Ahead expressions.
+# 	# $& holds last match; $` holds string behind last match; $' holds string ahead of last match.
+# 	$text = "Alexis Ozil Giroud ";
+# 	while ($text =~ /\w+(?=\s)/g) {
+# 		# body...
+# 		print "$&\n";
+# 		#print "$`\n";
+# 		#print "$'\n";
+# 	}
+	
+# }
+# &look_ahead;
