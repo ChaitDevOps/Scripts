@@ -2,26 +2,36 @@
 
 use strict;
 use warnings;
-#hello
+use Data::Dumper qw(Dumper);
 
 # sub reverse_list {
-# 	# body...
-# 	# Reversing the list input at STDIN
-# 	my $line = <>;
-# 	chomp $line;
-# 	my @lines = split /\s+/,$line;
-# 	my @reverseline = reverse (@lines);
-# 	print "@reverseline\n";
+# 	my $strings = <>;
+# 	chomp($strings);
+# 	my @array = split('\s' , $strings);
+# 	my @arr = reverse (@array);
+# 	#print Dumper @array;
+# 	print "@arr\n";
 # }
-
 # reverse_list;
 
-sub random {
-	# body...
-	# Print a Random String from A List.
-	srand;
-	print "Enter The String\n";
-	my @string = <>;
-	print "Answer: $string[rand(@string)]"; 
+# sub random {
+# 	# body...
+# 	# Print a Random String from A List.
+# 	srand;
+# 	print "Enter The String\n";
+# 	my @string = <>;
+# 	print "Answer: $string[rand(@string)]"; 
+# }
+# random;
+
+## $a = <> means, standard input is on same line. Its treated as a list. If new line is entered, it quits the stdin mode
+## @a = <> means, its treated as an element on a separate line but note a new line is also added to the array. to get rid 
+##	       of new line, introduce chomp.
+
+sub new_list {
+	my @a = <>;
+	chomp(@a);
+	print Dumper @a;
 }
-random;
+
+new_list;
