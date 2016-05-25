@@ -5,4 +5,4 @@ chkconfig httpd on
 service httpd start
 echo "<?php phpinfo();?>" > /var/www/html/index.php
 cd /var/www/html
-wget https://s3-eu-west-1.amazonaws.com/acloudguru/connect.php
+wget https://s3.ap-northeast-2.amazonaws.com/arsenalbucket/connect.php
