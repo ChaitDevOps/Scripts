@@ -1,0 +1,5 @@
+print "Arsenal is my favorite team"
+print "Wenger is the Manager"
+# print "Koscielny is the Captain"
+# print "Mesut Ozil is most important Player"
+# print "Need to buy new players in transfer window"

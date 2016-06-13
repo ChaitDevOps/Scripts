@@ -1,0 +1,3 @@
+*.log
+start-ec2.sh
+stop-ec2.sh
