@@ -1,0 +1,2 @@
+Required option '-O, --aws-access-key KEY' missing (-h for usage)
+Required option '-O, --aws-access-key KEY' missing (-h for usage)
