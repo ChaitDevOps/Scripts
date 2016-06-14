@@ -2,6 +2,8 @@
 # Script to Start EC2 Instances
 # Chaitanya Bingu
 
+source ~/.bash_profile
+export PATH=/Users/Maddy:$PATH
 export AWS_ACCESS_KEY_ID
 export AWS_SECRET_ACCESS_KEY
 export AWS_CREDENTIAL_FILE

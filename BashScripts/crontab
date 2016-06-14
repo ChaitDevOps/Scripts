@@ -1,0 +1,6 @@
+# Run Weekly Cron to Empty Trash
+00 22 * * 1-5 /Users/Maddy/Documents/Scripts/BashScripts/EmptyTrash.sh >> Trash.txt 2>&1
+
+# Run Daily to Start and Stop EC2 Instances
+00 09 * * 1-5 /Users/Maddy/Documents/Scripts/BashScripts/start-ec2.sh >> /Users/maddy/Documents/Scripts/CronFiles/CronStart.txt 
+00 21 * * 1-5 /Users/Maddy/Documents/Scripts/BashScripts/stop-ec2.sh >> /Users/Maddy/Documents/Scripts/CronFiles/CronStop.txt
