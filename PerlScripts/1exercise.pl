@@ -43,10 +43,10 @@ use warnings;
 sub string {
 	# body...
 	# Print String no of times indicated by STDIN
-	print "Enter String followed by no of times, use Space as delimiter\n";
+	print "Enter String followed by no of times, use comma as delimiter\n";
 	my $line = <>;
 	chomp $line;
-	my ($str,$num) = split /\s+-/,$line;
+	my ($str,$num) = split /,/,$line;
 	for (my $var = 0; $var < $num; $var++) {
 		# body...
 	print "$str\n";
