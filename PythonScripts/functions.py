@@ -9,7 +9,8 @@ def second_function(a,b):
 def third_function(name):
     print "My Third " + name
 def add_num(num1,num2):
-    return num1+num2
+    result = num1+num2
+    print result
 def print_x():
     x = add_num(2,3)
     print x
@@ -27,6 +28,7 @@ def is_prime(num):
 
 first_function()
 second_function(2,3)
+add_num(5,5)
 third_function('Function!')
 print_x()
 is_prime(9)
