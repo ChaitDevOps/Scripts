@@ -15,6 +15,9 @@ def square(num):
     print num**2
 square(4)
 
+def cube(num):
+    print num**3
+cube(2)
 # Converting this to Lambda
 
 square2 = lambda num: num**2
