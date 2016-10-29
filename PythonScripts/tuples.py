@@ -9,8 +9,12 @@ print(len(t))
 t=(1,2,'hey') # Tuples like lists can also mix object types.
 print(t[-1]) # Print Last Element in the List
 
-## Tuples are Immutable, meaning they cannot be changed. 
+## Tuples are Immutable, meaning they cannot be changed.
 ## Values inside a Tuple cannot be re-assigned.
 
 t=(1,2,'string')
 #t[2] = "hello" ## Not Supported.
+
+lst = tuple(2**x for x in range(0,10)) ## List comprehensions equiovalent in Tuples
+                                       ## Auto generating Tuples. 
+print(lst)

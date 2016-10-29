@@ -23,4 +23,4 @@ for num in xrange(1,10): ##Doesn't store in Memory.
 x = range(1,6)
 x2 = xrange(1,6)
 print "x:", type(x) ##list
-print "x2:",type(x2) ##Generators
+print "x2:", type(x2) ##Generators

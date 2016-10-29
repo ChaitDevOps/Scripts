@@ -24,6 +24,14 @@ print("Reverse: %r" %my_map2['k3'][::-1])
 print("Before Change : %s" %my_map2['k1'] )
 my_map2['k1'] = my_map2['k1'] - 120
 print("After Change: %s" %my_map2['k1'])
+my_map2['k1'] = 16
+print("After Change: %s" %my_map2['k1'])
+
+## Performing List Operations on Dicts.
+
+print(my_map2['k3'][0]) # Print index elemnt 0 in dict k3
+print(my_map2['k3'].upper()) # Print Upper case
+print(my_map2['k3'][::-1]) ## reverse value of k3
 
 ## Quick Syntax for the above
 ## Self Addidtion and re-assigning
@@ -53,4 +61,7 @@ newd['k3'] = 3
 print(newd)
 print(newd.keys()) # will return only keys
 print(newd.values()) # will return only values
+newd.values().reverse() ## Using reverse method. Applying on list and replacing it.
+print(newd.values())
+print(newd.values()[::-1]) # will return reverse values
 print(newd.items()) # will return Key, Value pairs, also called Tuples.

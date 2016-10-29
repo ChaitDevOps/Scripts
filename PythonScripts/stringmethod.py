@@ -10,4 +10,3 @@ s="Chait"
 print(s.upper()) # Convert variable to uppercase using method upper()
 print(s.lower()) # Opposite of above
 print(s.split('a')) # Returns a "List" with what's specified in the args
-

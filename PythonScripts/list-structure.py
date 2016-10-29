@@ -6,7 +6,7 @@ from __future__ import print_function
 
 my_list = [1,2,'string']
 print("My List is: %s" %(my_list))
-print(my_list[:2]) # Print list with buy only up to 2 elements.
+print(my_list[:2]) # Print list with but only up to 2 elements.
 print(len(my_list))
 print("hello " + "world")
 print((my_list + [5])) #concatenate list with an element
@@ -20,12 +20,12 @@ print(my_list)
 
 ## pop method (same functionality as pop in Perl)
 my_list.pop()
-print(my_list)
+print("Using Pop Here:",my_list)
 
 ## You can pass the index you want to pop off in the method.
 # This will remove the 1st element from list my_list
-## You can also assign the popped off element to another variable. 
-x = my_list.pop(0) 
+## You can also assign the popped off element to another variable.
+x = my_list.pop(0)
 print("Here is X : %s" %x)
 
 # .reverse() method for List.
@@ -38,7 +38,7 @@ new_list = [1,4,5,6,3,2]
 new_list.sort()
 print(new_list)
 
-## Nested Lists. 
+## Nested Lists.
 l_1 = [1,2,3]
 l_2 = [4,5,6]
 l_3 = [7,8,9]

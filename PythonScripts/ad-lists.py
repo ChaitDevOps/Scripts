@@ -15,15 +15,16 @@ l = [4,5,6]
 l.extend([7,8,9])
 print(l)
 
-# .index() - Returns the index of whatever element is placed as an argument. 
+# .index() - Returns the index of whatever element is placed as an argument.
 # Note: If the the element is not in the list an error is returned
 
 print(l.index(5))
 
 # .insert() - insert takes in two arguments: insert(index,object) This method places the object at the index supplied
-l.insert(7,10)
-print(l)
-
+l.insert(7,10) # if No index is supplied, it errors out.
+print("Here is insert:",l)
+print("Length of List l:" ,
+len(l))
 # .pop() - Pops off the last element of the list.
 ele = l.pop()
 print(ele)
@@ -32,7 +33,7 @@ print(ele)
 x=[8,9,10]
 x.remove(9)
 print(x)
-# .reverse - reverse the list, replaces your list. 
+# .reverse - reverse the list, replaces your list.
 x.reverse()
 print(x)
 
